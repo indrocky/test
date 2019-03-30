@@ -1,16 +1,16 @@
-let a = 5;
-switch (a) {
-    case a < 2:
-        console.log('q');
+let num = 50;
+switch (num) {
+    case num < 49:
+        console.log('wrong');
         break;
-    case a > 2:
-        console.log('w');
+    case num > 100:
+        console.log('much');
         break;
-    case 2:
-        console.log('r');
+    case 50:
+        console.log('right');
         break;
     default:
-        console.log('d');
+        console.log('something wrong');
         break;
 
 }
