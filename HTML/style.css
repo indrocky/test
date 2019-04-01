@@ -1,0 +1,274 @@
+* {
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	font-family: Comic Sans MS;
+}
+
+html {
+	background-image: url('background.jpg');
+	background-size: cover;
+}
+
+body {}
+
+#header {
+	color: red
+}
+
+h1 {
+	color: green
+}
+
+h3.style {
+	color: purple
+}
+
+p.style {
+	background-color: none
+}
+
+p i {
+	color: red
+}
+
+p.Example,
+b {
+	font-size: 30px;
+	font-weight: lighter;
+}
+
+p#FL:first-letter {
+	color: red;
+}
+
+p:hover {
+	background-color: none;
+}
+
+p:active {
+	background-color: none
+}
+
+.href {
+	color: red;
+	text-decoration: none;
+}
+
+.href:hover {
+	color: green;
+}
+
+.href:active {
+	color: blue;
+}
+
+.href:visited {
+	color: black
+}
+
+p {
+	text-indent: 1.1em
+}
+
+#textStyles {
+	font-size: 1.1em;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	sans-serif;
+	text-align: center;
+	text-transform: capitalize;
+	word-spacing: 10px;
+	letter-spacing: 10px;
+	line-height: 100%;
+}
+
+#testBlock {
+	border: 2px dashed black;
+	border-bottom: 3px dotted red;
+	height: 50px;
+	width: 200px;
+	background-color: yellow;
+	margin: 20px;
+	padding: 20px;
+	border-radius: 50px;
+}
+
+#headBlock {
+	width: 20%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	Margin-top: 10px;
+	background-color: white;
+	border: dashed;
+	border-radius: 30px;
+	padding: 10px;
+	font-size: 1.5em;
+	font-family: Comic Sans MS;
+	Color: black;
+	text-align: center;
+}
+
+article,
+aside {
+	background-color: white;
+	height: 400px;
+	border: dotted;
+	border-radius: 30px;
+	margin-top: 20px;
+	padding: 10px;
+
+}
+
+article {
+	width: 50%;
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+}
+
+#dog {
+	text-align: center;
+}
+
+#stayFull {
+	width: 35%;
+	height: 40%;
+	background-color: none;
+	border-radius: 30px;
+	border: dotted;
+	border-width: 2px;
+	float: left;
+}
+
+#Stay1 sit1 scratch1 play1 {
+	font-family: Comic Sans MS;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+#Stay {
+	width: 100%;
+	height: 60%;
+	border-radius: 30px;
+	border: none;
+	border-width: 2px;
+	background-color: silver;
+	background-image: url(Stay1.jpg);
+	background-size: contain;
+}
+
+#sitFull {
+	width: 35%;
+	height: 40%;
+	background-color: none;
+	border-radius: 30px;
+	border: dotted;
+	border-width: 2px;
+	margin-left: 28%;
+	float: left;
+}
+
+#sit {
+	width: 60%;
+	height: 60%;
+	border-radius: 30px;
+	border: none;
+	border-width: 2px;
+	background-color: white;
+	background-image: url(Sit1.jpg);
+	background-size: contain;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#scratchFull {
+	width: 35%;
+	height: 40%;
+	background-color: none;
+	border-radius: 30px;
+	border: dotted;
+	border-width: 2px;
+	float: left;
+	margin-top: 8%;
+}
+
+#scratch {
+	width: 50%;
+	height: 60%;
+	border-radius: 30px;
+	border: none;
+	border-width: 2px;
+	background-color: none;
+	background-image: url(Scratch1.jpg);
+	background-size: contain;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#playFull {
+	width: 35%;
+	height: 40%;
+	background-color: none;
+	border-radius: 30px;
+	border: dotted;
+	border-width: 2px;
+	float: right;
+	margin-top: 8%;
+}
+
+#play {
+	width: 63%;
+	height: 60%;
+	border-radius: 30px;
+	border: none;
+	border-width: 2px;
+	background-color: none;
+	background-image: url(Play1.jpg);
+	background-size: contain;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+aside {
+	width: 20%;
+	height: 60%;
+	margin-right: 5%;
+	float: right;
+}
+
+#love {
+	text-align: center;
+}
+
+aside ul {
+	width: 80%;
+	margin-left: 10%;
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+footer {
+	width: 50%;
+	height: 50px;
+	background-color: white;
+	border: dashed;
+	border-radius: 30px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: 10%;
+	font-size: 1.6em;
+	font-family: Comic Sans MS;
+	Color: black;
+	text-align: center;
+	float: right;
+}
+
+span {
+	display: block;
+	height: 60px;
+	width: 440px;
+	overflow: auto;
+}
