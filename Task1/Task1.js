@@ -11,8 +11,10 @@ let appData ={
 };
 
  for (let i = 0; i < 2; i++) {
-    let a = prompt('Mandatory expenses', ''),
+    let a = prompt('Mandatory expenses'),
         b = prompt('How much?', '');
+        console.log(a);
+        console.log(b);
     if(typeof(a) === 'string' && typeof(a) != null && typeof(b) != null
         && a != '' && b != '' && a.length < 50){
             console.log("done");
