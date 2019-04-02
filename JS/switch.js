@@ -1,16 +1,12 @@
-let num = 50;
-switch (num) {
-    case num < 49:
-        console.log('wrong');
+let name = "Van", homecity;
+switch (name) {
+    case "Den": homecity = "StP";
         break;
-    case num > 100:
-        console.log('much');
+    case "Van": homecity = "Moscow";
         break;
-    case 50:
-        console.log('right');
+    case "Rick": homecity = "NY";
         break;
-    default:
-        console.log('something wrong');
+    default: homecity = "homeless";
         break;
-
 }
+console.log(homecity);
