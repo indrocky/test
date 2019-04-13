@@ -1,0 +1,19 @@
+div {
+    border-style: solid;
+    border-width: 1px;
+}
+#head {
+    width: 1500px;
+    border-style: dotted;
+}
+
+#main, #theme, #date, #film, #search{
+float: none;
+border-style: dashed;
+margin: 2px;
+width: 100px;
+}
+#art {
+    border-color: red;
+    margin: 10px;
+}
